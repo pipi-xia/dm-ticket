@@ -1,7 +1,7 @@
 accounts:
     # .damai.cn中的cookie完整字符串
     - cookie: ""
-      remark: 账号1
+      remark: wzb
       # 抢票轮训间隔, 单位毫秒
       interval: 30
 
