@@ -9,7 +9,7 @@ RUN  sed -i "s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g" /etc/apk/repositori
 
 RUN apk add musl-dev openssl openssl-dev pkgconfig upx git
 
-COPY Cargo.toml Cargo.lock /usr/src/dm-ticket/
+COPY Cargo.toml /usr/src/dm-ticket/
 
 COPY .cargo /usr/src/dm-ticket/.cargo
 
